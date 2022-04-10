@@ -92,3 +92,15 @@ Isto vai substituir as alterações na sua árvore de trabalho pelo conteúdo ma
 Outro caso, seria se você fez alguma alteração que não era pra ter acontecido e você quer resetar o repositório igual ao que está no github, para fazer isso basta digitar o comando
 
     git reset --hard origin/main
+
+# Ramificando (branch)
+
+_Branches_ ("ramificações") é uma maneira que o git disponibiliza para separar as versões do projeto, gerenciar melhor o projeto. Quando criamos um novo projeto ele inicia sempre na Branch main.
+
+Para visualizar as branchs existentes no projeto, execute o comando
+
+    git branch
+
+E caso você queira criar um nova branch para adicionar alguma feature, execute o comando
+
+    git branch <nome da branch>
