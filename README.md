@@ -75,10 +75,16 @@ Para atualizar seu repositório local com a mais nova versão, execute
 
 na sua pasta de trabalho. Isso vai atualizar o seu repositório, caso alguém tenha feito alguma alteração.
 
-## Verificar alterações
+## Verificar alterações ou realizar alterações
 
 Para conseguir visualizar todas as atualizações que vêm sendo feito em uma branch, execute
 
     git log
 
 Isso pode ser útil para você entender como alguma parte do código vem sendo evoluída, ou pode ajudar a avaliar os commits locais antes de dar git push. Após a visualização as alterações aperte a tecla “Q” para sair.
+
+No caso de você ter feito algo errado (que seguramente nunca acontece 😅 ), você pode substituir as alterações locais usando o comando:
+
+    git checkout <nome do arquivo>
+
+Isto vai substituir as alterações na sua árvore de trabalho pelo conteúdo mais recente no `HEAD` .
