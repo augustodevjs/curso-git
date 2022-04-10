@@ -126,3 +126,15 @@ Toda vez que você cria uma branch, você separa ela da branch principal que no 
 O Git stash arquiva alterações não commitadas do seu local de trabalho, ou seja, ele volta para o estado do seu último commit guardando as alterações adicionais que você tinha feito. Fazendo uma analogia, é quase como se fizesse um backup das modificações dos seus arquivos, para utilizar esse comando execute o comando
 
     git stash
+
+Caso você queira visualizar todas as stash que você ja fez, você deve execute o comando
+
+    git stash list
+
+para reverter a stash que você deseja, você deve execute o comando
+
+    git stash apply (id)
+
+Podemos também vê as alterações em cada uma das stashs, para fazer isso basta digitar o comando
+
+    git stash show -p (id)
