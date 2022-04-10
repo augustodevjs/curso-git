@@ -116,3 +116,7 @@ Se você não executar esses comandos antes de mudar a branch, não vai ocorrer 
 Outro caso, seria se você quiser deletar uma nova branch por algum motivo, você deve executar o comando
 
     git branch -d <nome da branch>
+
+Toda vez que você cria uma branch, você separa ela da branch principal que no caso é a branch main, quando você quiser unir a sua branch com as determinadas funcionalidades nela com a branch principal, você executa o comando
+
+    git merge <nome da branch>
