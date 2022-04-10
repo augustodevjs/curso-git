@@ -92,3 +92,11 @@ Isto vai substituir as alterações na sua árvore de trabalho pelo conteúdo ma
 Outro caso, seria se você fez alguma alteração que não era pra ter acontecido e você quer resetar o repositório igual ao que está no github, para fazer isso basta digitar o comando
 
     git reset --hard origin/main
+
+Se você quiser, criar uma branch e mudar pra ela automaticamente execute o comando
+
+    git checkout -b "nome da branch"
+
+No caso de você ter criado uma branch, mas você não queira ela mais, você pode deletar ela com o seguinte comando
+
+    git branch -d <nome da branch>
