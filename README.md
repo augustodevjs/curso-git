@@ -120,3 +120,9 @@ Outro caso, seria se você quiser deletar uma nova branch por algum motivo, voc�
 Toda vez que você cria uma branch, você separa ela da branch principal que no caso é a branch main, quando você quiser unir a sua branch com as determinadas funcionalidades nela com a branch principal, você executa o comando
 
     git merge <nome da branch>
+
+## Stash
+
+O Git stash arquiva alterações não commitadas do seu local de trabalho, ou seja, ele volta para o estado do seu último commit guardando as alterações adicionais que você tinha feito. Fazendo uma analogia, é quase como se fizesse um backup das modificações dos seus arquivos, para utilizar esse comando execute o comando
+
+    git stash
