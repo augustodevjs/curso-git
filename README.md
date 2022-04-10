@@ -93,10 +93,24 @@ Outro caso, seria se você fez alguma alteração que não era pra ter acontecid
 
     git reset --hard origin/main
 
-Se você quiser, criar uma branch e mudar pra ela automaticamente execute o comando
+# Ramificando (branch)
 
-    git checkout -b "nome da branch"
+_Branches_ ("ramificações") é uma maneira que o git disponibiliza para separar as versões do projeto, gerenciar melhor o projeto. Quando criamos um novo projeto ele inicia sempre na Branch main.
 
-No caso de você ter criado uma branch, mas você não queira ela mais, você pode deletar ela com o seguinte comando
+Para visualizar as branchs existentes no projeto, execute o comando
 
-    git branch -d <nome da branch>
+    git branch
+
+E caso você queira criar um nova branch para adicionar alguma feature, execute o comando
+
+    git branch <nome da branch>
+
+Agora se você quiser mudar de um branch para outra, você deve executar o comando
+
+    git checkout <nome da branch>
+
+Obs: quando você mudar de uma branch para outra e fizer alguma alteração, você deve executer o seguintes comandos
+
+    git add . and git commit -m 'texto aleatório'
+
+Se você não executar esses comandos antes de mudar a branch, não vai ocorrer alterações, então sempre lembre-se de executar esse comando após você realizar alguma alteração na nova branch.
