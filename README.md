@@ -88,3 +88,7 @@ No caso de você ter feito algo errado (que seguramente nunca acontece 😅 ), v
     git checkout <nome do arquivo>
 
 Isto vai substituir as alterações na sua árvore de trabalho pelo conteúdo mais recente no `HEAD` .
+
+Outro caso, seria se você fez alguma alteração que não era pra ter acontecido e você quer resetar o repositório igual ao que está no github, para fazer isso basta digitar o comando
+
+    git reset --hard origin/main
