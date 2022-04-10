@@ -9,8 +9,6 @@ A primeira coisa que você deve fazer quando instalar o Git é definir o seu nom
 
 Relembrando, você só precisará fazer isso uma vez caso passe a opção `--global`, pois o Git sempre usará essa informação para qualquer coisa que você faça nesse sistema.
 
-<br />
-
 ## Criando um novo repositório
 
 Crie uma nova pasta, abra-a e execute o comando
@@ -18,8 +16,6 @@ Crie uma nova pasta, abra-a e execute o comando
     git init
 
 para criar um novo repositório.
-
-<br />
 
 ## Clonando um repositório
 
@@ -30,8 +26,6 @@ Crie uma cópia de trabalho em um repositório local executando o comando
 Quando estiver usando um servidor remoto, seu comando será
 
     git clone usuário@servidor:/caminho/para/o/repositório
-
-<br />
 
 ## Adicionar & Confirmar (add & commit)
 
@@ -45,15 +39,11 @@ para um arquivo em específico, ou
 
 para todos os arquivos.
 
-<br />
-
 Este é o primeiro passo no fluxo de trabalho básico do git. Para realmente confirmar estas mudanças (isto é, fazer um _commit_), use
 
     git commit -m "comentário sobre as alterações"
 
 Agora o arquivo foi enviado para o `**HEAD**` , mas ainda não para o repositório remoto.
-
-<br />
 
 Para verificar o status dos arquivos, você deve digitar o comandos
 
@@ -76,8 +66,6 @@ Se você não clonou um repositório existente e quer conectar seu repositório 
     git remote add origin <servidor>
 
 Agora você é capaz de enviar suas alterações para o servidor remoto selecionado.
-
-<br />
 
 ## Atualizar Pull
 
