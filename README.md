@@ -45,7 +45,7 @@ Este é o primeiro passo no fluxo de trabalho básico do git. Para realmente con
 
 Agora o arquivo foi enviado para o `**HEAD**` , mas ainda não para o repositório remoto.
 
-Para verificar o status dos arquivos, você deve digitar o comandos
+Para verificar o status dos arquivos, você deve digitar o comando
 
     git status
 
@@ -74,3 +74,11 @@ Para atualizar seu repositório local com a mais nova versão, execute
     git pull
 
 na sua pasta de trabalho. Isso vai atualizar o seu repositório, caso alguém tenha feito alguma alteração.
+
+## Verificar alterações
+
+Para conseguir visualizar todas as atualizações que vêm sendo feito em uma branch, execute
+
+    git log
+
+Isso pode ser útil para você entender como alguma parte do código vem sendo evoluída, ou pode ajudar a avaliar os commits locais antes de dar git push. Após a visualização as alterações aperte a tecla “Q” para sair.
