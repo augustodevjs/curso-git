@@ -19,13 +19,11 @@ para criar um novo repositório.
 
 ## Clonando um repositório
 
-Crie uma cópia de trabalho em um repositório local executando o comando
+Vá no github, entre no repositório que você deseja clonar e entra na parte CODE e copie o link do HTTP com o comando
 
-    git clone /caminho/para/o/repositório
+    git clone <link>
 
-Quando estiver usando um servidor remoto, seu comando será
-
-    git clone usuário@servidor:/caminho/para/o/repositório
+após isso, você sera capaz de visualizar o código.
 
 ## Adicionar & Confirmar (add & commit)
 
@@ -114,3 +112,7 @@ Obs: quando você mudar de uma branch para outra e fizer alguma alteração, voc
     git add . and git commit -m 'texto aleatório'
 
 Se você não executar esses comandos antes de mudar a branch, não vai ocorrer alterações, então sempre lembre-se de executar esse comando após você realizar alguma alteração na nova branch.
+
+Outro caso, seria se você quiser deletar uma nova branch por algum motivo, você deve executar o comando
+
+    git branch -d <nome da branch>
